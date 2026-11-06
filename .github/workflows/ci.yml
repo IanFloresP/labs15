@@ -113,4 +113,5 @@ jobs:
           record: false
           publish-summary: true
           # 💡 Forzamos el uso de Chrome en lugar de Electron, ya que gestiona mejor la memoria en GitHub Actions
-          browser: chrome 
+          browser: chrome
+          working-directory: cypress-tests
